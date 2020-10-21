@@ -20,7 +20,7 @@
 		<div class="site-container">
 
 			<!-- header -->
-			<header class="header">
+			<header class="header d-none">
 
 					<!-- logo -->
 					<!-- <div class="logo">

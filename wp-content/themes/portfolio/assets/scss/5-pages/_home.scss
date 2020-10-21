@@ -89,6 +89,20 @@
             }
         }
     }
+    .Redes{
+        ul{
+            li{
+                a{
+                    color: $magenta;
+                    font-size: 32px;
+                    margin: 10px 20px;
+                    &:hover{
+                        color:$rojo;
+                    }
+                }
+            }
+        }
+    }
 
 }
 .skills{
@@ -100,10 +114,19 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         .habilidad-nombre{
-            max-width: 30%;
+            width: 30%;
+            h4{
+                @include respond-below(md){
+                    font-size: 14px;
+                }
+            }
         }
         .habilidad-barra{
-            width: 70%;
+            
+            width: 60%;
+            @include respond-above(md){
+                width: 70%;
+            }
             .progress-bar{
                 background-color:$magenta!important;
             }
@@ -199,16 +222,22 @@
                 padding-top: 26px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                height: 430px;
+
                 .titulo{
                     font-size: 24px;
                     font-weight: 900;
                     font-family: $font-titulos;
+                    margin-bottom: 30px;
                 }
                 p{
                     text-align: justify;
                     font-size: 16px;
                 }
+                .site-btn{
+                    margin-top: auto;
+                }
+
             }
         }
         
@@ -225,4 +254,54 @@
         display: flex!important;
         flex-direction: column;
     }
+}
+.contacto{
+    h3{
+        font-family: $font-titulos;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    label{
+        font-family: $font-titulos;
+        font-size: 18px;
+        font-weight: 800;
+        color:$magenta;
+        width:100%;
+        display:block
+    }
+    input{
+        border:none;
+        border-radius:10px;
+        transition: $transition;
+        border: 0px solid $magenta;
+        width:100%;
+        &:focus{
+           border: 2px solid $magenta;
+           outline: unset!important; 
+        }
+    }
+    textarea{
+        border:none;
+        border-radius:10px;
+        transition: $transition;
+        border: 0px solid $magenta;
+        width:100%;
+        &:focus{
+           border: 2px solid $magenta;
+           outline: unset!important; 
+        }
+    }
+    .wpcf7-submit {
+        padding: 5px 20px;
+        margin-left: auto;
+        background-color:$rojo;
+        color:#fff;
+        width: 100px!important;
+        display: block;
+        transition: $transition;
+        &:hover{
+            background-color: $rojo;
+        }
+    }
+
 }

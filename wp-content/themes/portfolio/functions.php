@@ -29,9 +29,12 @@ if (is_user_logged_in()) {
     show_admin_bar(true);
 }#end if
 //abajo carga shortcodes
+
 // Adding Shortcodes to the_excerpt() function
 add_filter('the_excerpt', 'do_shortcode');
 add_filter('acf/format_value/type=textarea', 'do_shortcode');
+add_filter('acf/format_value/type=text', 'do_shortcode');
+add_filter('acf/format_value', 'do_shortcode');
 // Enable shortcodes in widgets
 add_filter('widget_text', 'do_shortcode');
 //abao carga estilos

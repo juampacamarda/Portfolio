@@ -216,6 +216,12 @@ header .logo .logo-img {
       height: auto; }
     .perfil .txt-cv .bottom li a:hover {
       color: #D10A8E; }
+  .perfil .Redes ul li a {
+    color: #D10A8E;
+    font-size: 32px;
+    margin: 10px 20px; }
+    .perfil .Redes ul li a:hover {
+      color: #FC4343; }
 
 .skills .titulo-skill {
   font-weight: 900; }
@@ -225,9 +231,15 @@ header .logo .logo-img {
   flex-wrap: wrap;
   justify-content: space-evenly; }
   .skills .habilidad .habilidad-nombre {
-    max-width: 30%; }
+    width: 30%; }
+    @media (max-width: 991px) {
+      .skills .habilidad .habilidad-nombre h4 {
+        font-size: 14px; } }
   .skills .habilidad .habilidad-barra {
-    width: 70%; }
+    width: 60%; }
+    @media (min-width: 992px) {
+      .skills .habilidad .habilidad-barra {
+        width: 70%; } }
     .skills .habilidad .habilidad-barra .progress-bar {
       background-color: #D10A8E !important; }
 
@@ -294,14 +306,17 @@ header .logo .logo-img {
       padding-top: 26px;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly; }
+      height: 430px; }
       .modal .modal-dialog .modal-body .data .titulo {
         font-size: 24px;
         font-weight: 900;
-        font-family: "Nunito", sans-serif; }
+        font-family: "Nunito", sans-serif;
+        margin-bottom: 30px; }
       .modal .modal-dialog .modal-body .data p {
         text-align: justify;
         font-size: 16px; }
+      .modal .modal-dialog .modal-body .data .site-btn {
+        margin-top: auto; }
 
 .modal.show {
   z-index: 5000; }
@@ -311,3 +326,47 @@ header .logo .logo-img {
   justify-content: center;
   display: flex !important;
   flex-direction: column; }
+
+.contacto h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 800; }
+
+.contacto label {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #D10A8E;
+  width: 100%;
+  display: block; }
+
+.contacto input {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s ease-in;
+  border: 0px solid #D10A8E;
+  width: 100%; }
+  .contacto input:focus {
+    border: 2px solid #D10A8E;
+    outline: unset !important; }
+
+.contacto textarea {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s ease-in;
+  border: 0px solid #D10A8E;
+  width: 100%; }
+  .contacto textarea:focus {
+    border: 2px solid #D10A8E;
+    outline: unset !important; }
+
+.contacto .wpcf7-submit {
+  padding: 5px 20px;
+  margin-left: auto;
+  background-color: #FC4343;
+  color: #fff;
+  width: 100px !important;
+  display: block;
+  transition: all 0.4s ease-in; }
+  .contacto .wpcf7-submit:hover {
+    background-color: #FC4343; }

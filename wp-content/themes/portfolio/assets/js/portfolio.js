@@ -84,7 +84,10 @@ jQuery(document).ready(function ($) {
 });
 jQuery(document).ready(function ($) { 
   $('.owl-carousel').owlCarousel({
-    loop: false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    loop: true,
     margin: 10,
     //nav: true,
     animateOut: 'slideOutLeft',
