@@ -9,8 +9,8 @@
             </div>
             <div class="col-12 col-md-4 d-none d-lg-flex flex-column justify-content-center">
                 
-                <a class="btn-portada desarro-btn" href="#Perfil-1"> DESARROLLADOR<br>FRONT-END</a>
-                <a class="btn-portada comics-btn" href="#Perfil-2">HISTORIETISTA</a>
+                <a class="btn-portada desarro-btn elegido" href="#Perfil-1"> DESARROLLADOR<br>FRONT-END</a>
+                <a class="btn-portada comics-btn elegido" href="#Perfil-2">HISTORIETISTA</a>
                 
             </div>
         </div>
