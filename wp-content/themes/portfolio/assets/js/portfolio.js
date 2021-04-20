@@ -104,11 +104,7 @@ jQuery(document).ready(function ($) {
     //nav: true,
     animateOut: 'slideOutLeft',
     animateIn: 'fadeInUp',
-    responsive: {
-      0: {
-        items: 1
-      }
-    }
+    
   })
 
   });
