@@ -142,7 +142,7 @@
         .head-carousel {
             height: 36px;
             background-color: lightgray;
-            position: absolute;
+            /*position: absolute;*/
             top: 0;
             width: 100%;
             box-shadow: 0px 1px 2px #959494;
@@ -168,7 +168,7 @@
             }
         }
         .owl-stage-outer {
-            border-radius: 10px;
+            border-radius: 0 0 10px 10px;
             
             .sitio{
                 height: 230px;
