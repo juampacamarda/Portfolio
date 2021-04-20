@@ -45,6 +45,22 @@ jQuery(document).ready(function ($) {
       $(".comics-btn").addClass("chiquito");
     
   });  
+  $(".desarro-btn").on('clik', function () {
+    var $perfil1 = $("#Perfil-1");
+    var $perfil2 = $("#Perfil-2");
+    if ($perfil1.hasClass("d-none")) {
+      $perfil1.removeClass("d-none");
+    }else if(!$perfil2.hasClass("d-none"))
+      $perfil2.addClass("dnone");
+  });
+  $(".comics-btn").on('clik', function () {
+    var $perfil1 = $("#Perfil-1");
+    var $perfil2 = $("#Perfil-2");
+    if ($perfil2.hasClass("d-none")) {
+      $perfil2.removeClass("d-none");
+    }else if(!$perfil1.hasClass("d-none"))
+      $perfil1.addClass("dnone");
+  });
   $(".comics-btn").bind("mouseover", function () {
     $(".juampas").addClass("historieta");
     $(".desarro-btn").removeClass("elegido");

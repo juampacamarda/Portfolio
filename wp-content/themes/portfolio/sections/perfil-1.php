@@ -1,4 +1,4 @@
-<section id="Perfil-1" class="perfil">
+<section id="Perfil-1" class="perfil d-none">
     <div class="container">
         <!--about-->
         <div class="row mb-2 d-flex align-items-center">
