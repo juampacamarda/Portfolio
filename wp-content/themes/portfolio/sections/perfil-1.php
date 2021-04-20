@@ -117,7 +117,7 @@
                                                 <div class="data">
                                                     <h3 class="titulo"><?php echo $nombre; ?></h3>
                                                     <p><?php echo $txt; ?></p>
-                                                    <a href="<?php echo $link; ?>" class="btn site-btn">Ver Más</a>
+                                                    <a href="<?php echo $link; ?>"  target="blank" class="btn site-btn">Ver Más</a>
                                                 </div>
                                                 
                                             </div>
