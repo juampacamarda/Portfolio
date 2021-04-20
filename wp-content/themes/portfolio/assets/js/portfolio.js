@@ -51,6 +51,12 @@ jQuery(document).ready(function ($) {
     }else if(!$("#Perfil-2").hasClass("d-none"))
       $("#Perfil-2").addClass("d-none");
   });
+  $(".comics-btn").click(function () {
+    if ($("#Perfil-2").hasClass("d-none")) {
+      $("#Perfil-2").removeClass("d-none");
+    }else if(!$("#Perfil-1").hasClass("d-none"))
+      $("#Perfil-1").addClass("d-none");
+  });
   $(".comics-btn").bind("mouseover", function () {
     $(".juampas").addClass("historieta");
     $(".desarro-btn").removeClass("elegido");
