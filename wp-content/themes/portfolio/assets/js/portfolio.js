@@ -104,7 +104,8 @@ jQuery(document).ready(function ($) {
     //nav: true,
     animateOut: 'slideOutLeft',
     animateIn: 'fadeInUp',
-    
+    items: 1
+
   })
 
   });
