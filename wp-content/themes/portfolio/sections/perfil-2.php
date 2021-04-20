@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-between align-items-center">
                 <div class="Redes col-12 col-md-6 mb-5">
 
                     <h3> Seguí mi Trabajo en:</h3>

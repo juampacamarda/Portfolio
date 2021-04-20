@@ -50,7 +50,7 @@
             </div>
         </div>
         <!--Skills y carousel-->
-        <div class="row justify-content-center">
+        <div class="row justify-content-between">
             <!--Skills-->
             <?php if( have_rows('carousel_frontend') ): ?>
             <div class="skills mb-5 col-12 col-md-6">
