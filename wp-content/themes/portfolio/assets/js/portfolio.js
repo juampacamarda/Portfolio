@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
       $(".comics-btn").addClass("chiquito");
     
   });  
-  $(".desarro-btn").on('clik', function () {
+  $(".desarro-btn").click(function () {
     if ($("#Perfil-1").hasClass("d-none")) {
       $("#Perfil-1").removeClass("d-none");
     }else if(!$("#Perfil-2").hasClass("d-none"))
