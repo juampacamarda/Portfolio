@@ -106,7 +106,9 @@
                                                 <div class="data">
                                                     <h3 class="titulo"><?php echo $nombre; ?></h3>
                                                     <p><?php echo $txt; ?></p>
+                                                    <?php if ($link) : ;?>
                                                     <a href="<?php echo $link; ?>" target="blank" class="btn site-btn">Ver Más</a>
+                                                    <?php endif ;?>
                                                 </div>
                                                 
                                             </div>
