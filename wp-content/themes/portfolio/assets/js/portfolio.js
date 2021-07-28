@@ -48,14 +48,14 @@ jQuery(document).ready(function ($) {
   $(".desarro-btn").click(function () {
     if ($("#Perfil-1").hasClass("d-md-none")) {
       $("#Perfil-1").removeClass("d-md-none");
-    }else if(!$("#Perfil-2").hasClass("d-md-none"))
-      $("#Perfil-2").addClass("d-md-none");
+    }else if(!$("#Perfil-2").hasClass("d-md-none")){
+      $("#Perfil-2").addClass("d-md-none");}
   });
   $(".comics-btn").click(function () {
     if ($("#Perfil-2").hasClass("d-md-none")) {
       $("#Perfil-2").removeClass("d-md-none");
-    }else if(!$("#Perfil-1").hasClass("d-md-none"))
-      $("#Perfil-1").addClass("d-md-none");
+    }else if(!$("#Perfil-1").hasClass("d-md-none")){{{
+      $("#Perfil-1").addClass("d-md-none");}}}
   });
   $(".comics-btn").bind("mouseover", function () {
     $(".juampas").addClass("historieta");
